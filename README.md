@@ -31,7 +31,7 @@
 
 # 📖 TDD Ruby Project <a name="about-project"></a>
 
-**TDD Ruby Project**  is a method used in telecommunication to decode symbol characters as standardized sequences of two different signal durations, called dots and dashes, or dits and dahs.[3][4] Morse code is named after Samuel Morse, one of the inventors of the telegraph.
+**TDD Ruby Project:**  In this project I implemented a class with some methods, I did that by doing test-driven development (TDD). The idea is to write tests first and then the code. This was verified in my commits history, so it is important to use the proper sequence..
 
 ## 🛠 Built With <a name="built-with"></a>
 
