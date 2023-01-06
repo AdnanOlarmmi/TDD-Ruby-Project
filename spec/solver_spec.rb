@@ -1,4 +1,4 @@
-require './solver'
+require_relative ('../models/solver')
 solver = Solver.new
 
 describe 'factorial' do
