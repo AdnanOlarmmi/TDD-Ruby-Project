@@ -19,3 +19,20 @@ describe 'reverse' do
     expect(solver.reverse('hello')).to eq('olleh')
   end
 end
+
+describe 'FizzBuzz' do
+  it 'FizzBuzz of a number' do
+    expect(solver.fizzbuzz(15)).to eq('FizzBuzz')
+  end
+
+  it 'Fizz of a number' do
+    expect(solver.fizzbuzz(21)).to eq('Fizz')
+  end
+
+  it 'Buzz of a number' do
+    expect(solver.fizzbuzz(50)).to eq('Buzz')
+  end
+  it 'Not Fizz neither buzz' do
+    expect(solver.fizzbuzz(7)).to eq(7)
+  end
+end
